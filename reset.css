@@ -1,0 +1,8 @@
+html, body, h1, h2, main, header, footer, div, p, 
+address, a, span, form
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
