@@ -7,11 +7,17 @@ address, a, span, form
 	font-size: 100%;
 
 	font-family: Arial;
+	font-weight: normal;
 }
 
 a
 {
 	text-decoration: none;
 	color: blue;
+}
+
+address
+{
+	font-style: normal;
 }
 
