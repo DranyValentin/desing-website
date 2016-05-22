@@ -1,10 +1,16 @@
+*
+{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 html, body, h1, h2, main, header, footer, div, p, 
 address, a, span, form
 {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 
 	font-family: Arial;
 	font-weight: normal;
@@ -19,5 +25,10 @@ a
 address
 {
 	font-style: normal;
+}
+
+button:active
+{
+	border: none;
 }
 
