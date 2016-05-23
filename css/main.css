@@ -1,4 +1,4 @@
-@import url(css/style.css);
-@import url(css/large.css)(min-width: 768px) and (max-width: 1199px);
-@import url(css/medium.css)(min-width: 481px) and (max-width: 768px);
-@import url(css/small.css)(max-width: 480px);
+@import url(style.css);
+@import url(large.css) (min-width: 768px) and (max-width: 1199px);
+@import url(medium.css) (min-width: 481px) and (max-width: 768px);
+@import url(small.css) (max-width: 480px);
