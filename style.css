@@ -46,50 +46,43 @@ header section h1 a
 	text-decoration: none;
 }
 
-.login
+.wrapBasketAndLogin
 {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
-/*	border: 1px solid black;*/
+
+	font-size: 22px;
+	color: #13B5EC;
 }
 
 .login p
 {
-	font-size: 2.1vw;
-	color: #13B5EC;
 
-	padding-top: 5px;
 }
 
-.login .basket
+.basket
 {
-	margin-top: 5px;
-	padding: 0 5px 5px 5px;
 
-	font-size: 2.1vw;
-	color: #fff;
-
-	background: linear-gradient(to bottom, blue, #13B5EC);
-	border-radius: 10px;
-}
-
-.wrapAddressAndForm
-{
-	display: flex;
-	flex-flow: column wrap;
-	justify-content: flex-start;
-
-	width: 70%;
-
-	padding-left: 10px;
-/*	border: 1px solid red;*/
 }
 
 header address
 {
+	display: flex;
+	flex-wrap: wrap;
+
 	font-size: 26px;
 	font-family: sans-serif;
+}
+
+header address p
+{
+	padding: 5px;
+}
+
+.city
+{
+	font-size: 22px;
 }
 
 header form
@@ -105,7 +98,8 @@ header form
 header form p
 {
 	width: 70%;
-/*	border: 1px solid blue;*/
+
+	margin-left: 10px;
 }
 
 header form input
@@ -135,17 +129,6 @@ header form button
 
 	margin-left: 10px;
 	border-radius: 15px;
-}
-
-.tel
-{
-	width: 30%;
-	min-width: 290px;
-
-	letter-spacing: 5px;
-
-	padding-left: 20px;
-/*	border: 1px solid blue;*/
 }
 
 main
