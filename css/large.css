@@ -1,0 +1,142 @@
+body
+{
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap column;
+}
+
+header
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header section
+{
+	width: 100%;
+
+	display: flex;
+}
+
+header section h1
+{
+	font-size: 38px;
+	text-shadow: 4px 2px 2px #666;
+
+	padding: 0 5px;
+}
+
+header section h1:hover
+{
+	text-shadow: 2px 1px 1px #666;
+}
+
+header section h1:active
+{
+	text-shadow: 0 0 2px  #666;
+}
+
+header section h1 a
+{
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.wrapBasketAndLogin
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+
+	font-size: 18px;
+	color: #13B5EC;
+}
+
+header address
+{
+	display: flex;
+	flex-wrap: wrap;
+
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+header address p
+{
+	padding: 5px;
+}
+
+.city
+{
+	font-size: 18px;
+}
+
+.tel
+{
+	display: flex;
+}
+
+header address p.city:last-child(5n+2)
+{
+	padding: 5px;
+	margin-right: 15px;
+}
+
+
+
+header form
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+
+	margin-top: 10px;
+/*	border: 1px solid red;*/
+}
+
+header form p
+{
+	width: 70%;
+
+	margin-left: 10px;
+}
+
+header form input
+{
+	width: 100%;
+
+	font-size: 18px;
+	
+	padding: 15px;	
+/*	border: 1px solid #13B5EC;*/
+	border-radius: 15px;
+	box-shadow: inset 0 0 4px #666;
+	border-radius: 1px solid green;
+}
+
+header form small
+{
+	margin-left: 15px;
+}
+
+header form button
+{
+	width: 25%;
+	height: 54px;
+	
+	font-size: 23px;
+
+	margin-left: 10px;
+	border-radius: 15px;
+}
+
+main
+{
+	background: blue;
+}
+
+footer
+{
+	background: green;
+}
+
