@@ -1,3 +1,5 @@
+/*small.css*/
+
 body
 {
 	display: flex;
@@ -57,27 +59,10 @@ header address p
 	display: flex;
 }
 
-header address p.city:last-child(5n+2)
-{
-	padding: 5px;
-	margin-right: 15px;
-}
-
-header form
-{
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-
-	margin-top: 10px;
-/*	border: 1px solid red;*/
-}
-
 header form p
 {
-	width: 80%;
+	width: 70%;
 
-	margin-left:10px;
 }
 
 header form input
@@ -89,7 +74,7 @@ header form input
 	padding: 10px 15px;	
 	border-radius: 15px;
 	box-shadow: inset 0 0 4px #666;
-	border-radius: 1px solid green;
+	border: 1px solid green;
 }
 
 header form small
@@ -99,7 +84,7 @@ header form small
 
 header form button
 {
-	width: 10%;
+	width: 25%;
 	height: 44px;
 	
 	font-size: 10px;

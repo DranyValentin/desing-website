@@ -3,13 +3,10 @@
 	"use strict"
 	
 	const $ = selector => document.querySelector(selector)
+	
 
-	
-	$("body").addEventListener("click", () =>
+	$(".login").addEventListener("click", () =>
 	{
-	
 		$("dialog").show();
 	})
-
-
 })()
