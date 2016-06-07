@@ -14,8 +14,6 @@
 		$nav.setAttribute('class', 'groups')
 		fragment.appendChild($nav).innerHTML = $('.groups').innerHTML
 		$('.left').replaceChild(fragment, $('.groups'))
-
-		console.log(fragment)
 	}
 	
 // Change div class=groups_title on h2 class=groups_title
