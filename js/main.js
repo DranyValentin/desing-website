@@ -20,7 +20,7 @@
 	{
 		let fragment = document.createDocumentFragment()
 		let $h2 = document.createElement('h2')
-		$h2.setAttribute('class', 'groups')
+		$h2.setAttribute('class', 'groups_title')
 		fragment.appendChild($h2).textContent 
 									= $('.groups_title').textContent
 		$('.groups').replaceChild(fragment, $('.groups_title'))

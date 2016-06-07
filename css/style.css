@@ -7,14 +7,14 @@ body
 	display: flex;
 	justify-content: center;
 	flex-flow: wrap column;
+
+	margin-left: 10px;
 }
 
 header
 {
 	display: flex;
 	flex-wrap: wrap;
-	
-	margin-left: 10px;
 }
 
 header section
@@ -142,7 +142,7 @@ dialog
 main
 {
 	margin-top: 10px;
-	border: 1px red solid;
+	
 }
 
 .container
@@ -154,11 +154,57 @@ main
 .left
 {
 	width: 30%;
+	max-width: 400px;
 }
 
 .groups
 {
-	border: 1px solid blue;
+	border-radius: 5px;
+	/*border: 1px solid red;*/
+	box-shadow: 0 0 9px 0px rgba(0,0,0,.75);
+}
+
+.groups_title
+{
+	font-size: 32px;
+	font-weight: 700;
+	color: #00f;
+	letter-spacing: 3px;
+	text-align: center;
+	text-shadow: 2px 2px 3px #aaa;
+
+	box-shadow: 0 0 9px 0px rgba(0,0,0,.75);
+	border-radius: 5px;
+
+}
+
+.groups ul
+{
+	padding: 10px;
+}
+
+.groups li
+{
+	font-size: 18px;
+	text-shadow: 1px 1px 2px #ccc;
+
+	
+	border-bottom: 1px solid #eee;
+}
+
+.groups li a
+{
+	display: block;
+
+	padding: 5px 0;
+}
+
+.groups li a:hover
+{
+	color: #027981;
+	text-shadow: 0 0 10px #999;
+
+	background: #F8F8FF;
 }
 
 footer
