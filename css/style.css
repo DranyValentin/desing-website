@@ -1,4 +1,6 @@
 /*style.css*/
+
+/*Head section*/
 body
 {
 	/*border: 2px solid red;*/
@@ -54,11 +56,6 @@ header section h1 a
 
 	font-size: 22px;
 	color: #13B5EC;
-}
-
-.login p
-{
-
 }
 
 .basket
@@ -140,9 +137,28 @@ dialog
 	border: 1px solid blue;
 }
 
+
+/*Main section*/
 main
 {
-	background: blue;
+	margin-top: 10px;
+	border: 1px red solid;
+}
+
+.container
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.left
+{
+	width: 30%;
+}
+
+.groups
+{
+	border: 1px solid blue;
 }
 
 footer
