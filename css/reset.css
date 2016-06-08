@@ -18,6 +18,12 @@ address, a, span, form
 	font-weight: normal;
 }
 
+figure
+{
+	margin: 0;
+	padding: 0;
+}
+
 a
 {
 	text-decoration: none;
@@ -46,3 +52,4 @@ li
 	margin: 0;
 	padding: 0;
 }
+

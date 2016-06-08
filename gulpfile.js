@@ -49,12 +49,22 @@ gulp.task('js', function ()
 
 })
 
+// img
+gulp.task('img', function ()
+{
+	gulp.src('img/*.*')
+	.pipe(gulp.dest('dest/img'))
+	.pipe(connect.reload());
+
+})
+
 // watch
 gulp.task('watch', function ()
 {
 	gulp.watch('css/*.css', ['css'])
 	gulp.watch('index.html', ['html'])
 	gulp.watch('js/*.js', ['js'])
+	gulp.watch('img/*.*', ['img'])
 })
 
 // default
@@ -62,5 +72,6 @@ gulp.task('default', ['connect',
 						'html',
 						'css',
 						'js',
+						'img',
 						'watch'
 ]);

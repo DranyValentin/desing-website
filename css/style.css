@@ -145,12 +145,13 @@ main
 	
 }
 
-.container
+#container
 {
 	display: flex;
-	flex-wrap: wrap;
+	flex-flow: wrap;
 }
 
+/*Left path of main section*/
 .left
 {
 	width: 30%;
@@ -206,6 +207,78 @@ main
 
 	background: #F8F8FF;
 }
+
+/*Center path of main section*/
+.center
+{
+	display: flex;
+	flex-wrap: wrap;
+
+	width: 70%;
+	
+	padding: 0 10px 10px 30px;
+}
+
+.auto-vaz
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.auto-vaz h2	
+{	
+	display: block;
+
+	width: 100%;
+
+	font-size: 32px;
+	color: #0000ff;
+	
+	text-shadow: 2px 2px 1px #999;
+	letter-spacing: 1px;
+
+	padding: 0 5px 5px;
+}
+
+.img-auto
+{
+	display: inline-block;
+	border: 3px solid #eee;
+	border-radius: 10px;
+	box-shadow: -2px -3px 4px 1px rgba(0,0,0,.5),
+				4px 3px 6px rgba(0,0,0,.5);
+
+	margin: 20px 0;
+}
+
+.img-auto:hover
+{
+	border: 3px solid #F8F8FF;
+	box-shadow: -1px -2px 2px rgba(0,0,0,.5),
+				2px 1px 3px rgba(0,0,0,.5);
+}
+
+.img-auto a
+{
+	width: 100%;
+}
+
+.img-auto img
+{
+	border-radius: 10px 10px 0 0;
+}
+
+.img-auto figcaption
+{
+	text-align: center;
+}
+/*
+.item
+{
+	width: 260px;
+}
+*/
 
 footer
 {
